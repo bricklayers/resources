@@ -112,3 +112,7 @@ ListView和RecyclerView缓存机制基本一致：
 [1]: https://blog.csdn.net/weixin_47285644/article/details/114588301	"ListView和RecycleView对比"
 [2]: https://zhuanlan.zhihu.com/p/23339185	"Android ListView 与 RecyclerView 对比浅析—缓存机制"
 
+
+
+
+

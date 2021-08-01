@@ -14,4 +14,6 @@ loop()方法是一个阻塞方法，何时唤醒？这里是在Handler发送消�
 
 dispatchMessage()是用来分发处理消息的，首先判断msg.callback是不是null，msg.callback实际上就是我们调用handler的post方法传入的Runnable，而handleCallback方法也就是执行Runnable.run()，当msg.callback不为null时执行handleCallback，当msg.callback为null时会先判断mCallback是不是null，mCallback是我们在初始化Handler时传入的参数，如果外部mCallback.handleMessage(msg)返回true，表示不执行Handler中的handleMessage，否则就继续往下执行
 
+## 参考资料
+
 https://blog.csdn.net/lyl278401555/article/details/51829381
